@@ -85,7 +85,7 @@ a:hover {
   font-size: 5.5rem;
   color: #fafafa;
   padding: 2.2rem 0 1rem 0;
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
   border-top: 4px solid #fafafa;
   border-bottom: 4px solid #fafafa;
 }
@@ -100,6 +100,20 @@ a:hover {
 #app .text p {
   color: #ececec;
   margin: .5rem;
+}
+
+#app .text #timer {
+  font-size: .7rem;
+}
+
+#app .text #timer span {
+  font-size: 3.4rem;
+}
+
+@media (max-width: 575.98px) {
+  #app .text #timer span {
+    font-size: 1.5rem;
+  }
 }
 
 #app .text .btn {

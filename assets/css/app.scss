@@ -60,7 +60,7 @@ a{
             font-size: 5.5rem;
             color: #fafafa;
             padding: 2.2rem 0 1rem 0;
-            margin-bottom: 3rem;
+            margin-bottom: 2.5rem;
             border-top: 4px solid #fafafa;
             border-bottom: 4px solid #fafafa;
             @media (max-width: 575.98px) {
@@ -71,6 +71,15 @@ a{
         p{
             color: #ececec;
             margin: .5rem;
+        }
+        #timer{
+            font-size: .7rem;
+            span{
+                font-size: 3.4rem;
+                @media (max-width: 575.98px) {
+                    font-size: 1.5rem;
+                }
+            }
         }
         .btn{
             border-radius: 0;
