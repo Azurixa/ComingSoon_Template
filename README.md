@@ -1,7 +1,6 @@
+![preview_pc](https://raw.githubusercontent.com/Azurixa/ComingSoon_Template/master/preview/preview_pc.png)
 # Coming Soon website Template
 >by Mateusz Ożóg
-
-![preview_pc](https://raw.githubusercontent.com/Azurixa/ComingSoon_Template/master/preview/preview_pc.png)
 
 Preview of this template is in **preview/preview_RWD.png** file!
 
