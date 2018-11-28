@@ -28,7 +28,7 @@ a:hover {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg.jpeg");
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
 }
@@ -49,6 +49,13 @@ a:hover {
   background-size: cover;
 }
 
+@media (max-width: 575.98px) {
+  #app .navbar .logo {
+    width: 70px;
+    height: 40px;
+  }
+}
+
 #app .navbar .menu .menu-item {
   display: inline-block;
   padding: 1rem;
@@ -58,6 +65,13 @@ a:hover {
 
 #app .navbar .menu .menu-item:hover {
   color: #fafafa;
+}
+
+@media (max-width: 575.98px) {
+  #app .navbar .menu .menu-item {
+    font-size: 1rem;
+    padding: .6rem;
+  }
 }
 
 #app .text {
@@ -74,6 +88,13 @@ a:hover {
   margin-bottom: 3rem;
   border-top: 4px solid #fafafa;
   border-bottom: 4px solid #fafafa;
+}
+
+@media (max-width: 575.98px) {
+  #app .text h1 {
+    padding: 1.6rem 0 1rem 0;
+    font-size: 2rem;
+  }
 }
 
 #app .text p {
@@ -94,6 +115,12 @@ a:hover {
 #app .text .btn:focus {
   outline: none;
   box-shadow: none;
+}
+
+@media (max-width: 575.98px) {
+  #app .text {
+    padding: 0 2rem;
+  }
 }
 
 #app .copyright {
